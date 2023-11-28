@@ -9,6 +9,7 @@ fieldset{
 hr{
     border-width: 2px;
     background-color: black;
+    margin: 1rem;
 }
 .col-sm{
     font-style: italic;
@@ -18,9 +19,13 @@ hr{
 .top-left{
     text-align: left;
     padding-left: 0px;
+    margin-left: 1rem;
 }
 .top-right{
     text-align: right;
+}
+.top-lenthpara{
+    margin-left: 1rem;
 }
 .big-heading{
     font-weight: bold;
@@ -32,7 +37,7 @@ hr{
     font-weight: bold;
     font-display: white;
     background-color: brown;
-    
+    margin: 1rem;
 }
 .below-today01{
     flex-grow: 0.5;
@@ -45,6 +50,21 @@ hr{
     font-size: small;
     text-align: justify;
 }
+.today02{
+    font-weight: bold;
+    font-display: white;
+    background-color: brown;
+}
+.today03{
+    font-weight: bold;
+    font-display: white;
+    background-color: brown;
+}
+.today04{
+    font-weight: bold;
+    font-display: white;
+    background-color: brown;
+}
 .img1{
    width: 150%;
    height: 95%;
@@ -53,9 +73,6 @@ hr{
     margin-right: 1rem;
 }
 .card-img-top2{
-    margin-right: 1rem;
-}
-.card-img-top3{
     margin-right: 1rem;
 }
 .card{
